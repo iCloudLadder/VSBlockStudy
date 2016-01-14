@@ -7,25 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D009A5A01C476C8200A79678 /* VSMRCBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D009A59F1C476C8200A79678 /* VSMRCBlockViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D009A5A31C4787E400A79678 /* VSBlockAndDelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D009A5A21C4787E400A79678 /* VSBlockAndDelegateViewController.m */; };
+		D009A5A61C47892D00A79678 /* VSSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D009A5A51C47892D00A79678 /* VSSecondViewController.m */; };
 		D057A7861C45DEF00041AAD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D057A7851C45DEEF0041AAD7 /* main.m */; };
 		D057A7891C45DEF00041AAD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D057A7881C45DEF00041AAD7 /* AppDelegate.m */; };
-		D057A78C1C45DEF00041AAD7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D057A78B1C45DEF00041AAD7 /* ViewController.m */; };
 		D057A78F1C45DEF00041AAD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D057A78D1C45DEF00041AAD7 /* Main.storyboard */; };
 		D057A7911C45DEF00041AAD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D057A7901C45DEF00041AAD7 /* Assets.xcassets */; };
 		D057A7941C45DEF00041AAD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D057A7921C45DEF00041AAD7 /* LaunchScreen.storyboard */; };
+		D057A79D1C45E07D0041AAD7 /* VSMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D057A79C1C45E07D0041AAD7 /* VSMainTableViewController.m */; };
+		D057A7A31C45E92C0041AAD7 /* NSString+VSExtendedString.m in Sources */ = {isa = PBXBuildFile; fileRef = D057A7A21C45E92C0041AAD7 /* NSString+VSExtendedString.m */; };
+		D057A7B01C45F0B50041AAD7 /* VSTestBlockModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D057A7AF1C45F0B50041AAD7 /* VSTestBlockModel.m */; };
+		D057A7B31C45F1950041AAD7 /* VSBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D057A7B21C45F1950041AAD7 /* VSBlockViewController.m */; };
+		D057A7B71C45FE290041AAD7 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = D057A7B61C45FE290041AAD7 /* Common.m */; };
+		D057A7C91C474D310041AAD7 /* VSARCBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D057A7C81C474D310041AAD7 /* VSARCBlockViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D009A59E1C476C8200A79678 /* VSMRCBlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSMRCBlockViewController.h; sourceTree = "<group>"; };
+		D009A59F1C476C8200A79678 /* VSMRCBlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSMRCBlockViewController.m; sourceTree = "<group>"; };
+		D009A5A11C4787E400A79678 /* VSBlockAndDelegateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSBlockAndDelegateViewController.h; sourceTree = "<group>"; };
+		D009A5A21C4787E400A79678 /* VSBlockAndDelegateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSBlockAndDelegateViewController.m; sourceTree = "<group>"; };
+		D009A5A41C47892D00A79678 /* VSSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSSecondViewController.h; sourceTree = "<group>"; };
+		D009A5A51C47892D00A79678 /* VSSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSSecondViewController.m; sourceTree = "<group>"; };
 		D057A7811C45DEEF0041AAD7 /* VSBlockStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VSBlockStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D057A7851C45DEEF0041AAD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D057A7871C45DEF00041AAD7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D057A7881C45DEF00041AAD7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D057A78A1C45DEF00041AAD7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D057A78B1C45DEF00041AAD7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D057A78E1C45DEF00041AAD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D057A7901C45DEF00041AAD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D057A7931C45DEF00041AAD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D057A7951C45DEF00041AAD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D057A79B1C45E07D0041AAD7 /* VSMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSMainTableViewController.h; sourceTree = "<group>"; };
+		D057A79C1C45E07D0041AAD7 /* VSMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSMainTableViewController.m; sourceTree = "<group>"; };
+		D057A7A11C45E92C0041AAD7 /* NSString+VSExtendedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+VSExtendedString.h"; sourceTree = "<group>"; };
+		D057A7A21C45E92C0041AAD7 /* NSString+VSExtendedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+VSExtendedString.m"; sourceTree = "<group>"; };
+		D057A7AE1C45F0B50041AAD7 /* VSTestBlockModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSTestBlockModel.h; sourceTree = "<group>"; };
+		D057A7AF1C45F0B50041AAD7 /* VSTestBlockModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSTestBlockModel.m; sourceTree = "<group>"; };
+		D057A7B11C45F1950041AAD7 /* VSBlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSBlockViewController.h; sourceTree = "<group>"; };
+		D057A7B21C45F1950041AAD7 /* VSBlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSBlockViewController.m; sourceTree = "<group>"; };
+		D057A7B51C45FE290041AAD7 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		D057A7B61C45FE290041AAD7 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		D057A7C71C474D310041AAD7 /* VSARCBlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSARCBlockViewController.h; sourceTree = "<group>"; };
+		D057A7C81C474D310041AAD7 /* VSARCBlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSARCBlockViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +82,8 @@
 		D057A7831C45DEEF0041AAD7 /* VSBlockStudy */ = {
 			isa = PBXGroup;
 			children = (
-				D057A7871C45DEF00041AAD7 /* AppDelegate.h */,
-				D057A7881C45DEF00041AAD7 /* AppDelegate.m */,
-				D057A78A1C45DEF00041AAD7 /* ViewController.h */,
-				D057A78B1C45DEF00041AAD7 /* ViewController.m */,
-				D057A78D1C45DEF00041AAD7 /* Main.storyboard */,
-				D057A7901C45DEF00041AAD7 /* Assets.xcassets */,
-				D057A7921C45DEF00041AAD7 /* LaunchScreen.storyboard */,
-				D057A7951C45DEF00041AAD7 /* Info.plist */,
+				D057A7A51C45E9BA0041AAD7 /* main */,
+				D057A7A41C45E9A00041AAD7 /* VSExtended */,
 				D057A7841C45DEEF0041AAD7 /* Supporting Files */,
 			);
 			path = VSBlockStudy;
@@ -74,9 +92,71 @@
 		D057A7841C45DEEF0041AAD7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D057A7871C45DEF00041AAD7 /* AppDelegate.h */,
+				D057A7881C45DEF00041AAD7 /* AppDelegate.m */,
+				D057A7901C45DEF00041AAD7 /* Assets.xcassets */,
+				D057A7921C45DEF00041AAD7 /* LaunchScreen.storyboard */,
+				D057A7951C45DEF00041AAD7 /* Info.plist */,
 				D057A7851C45DEEF0041AAD7 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D057A7A41C45E9A00041AAD7 /* VSExtended */ = {
+			isa = PBXGroup;
+			children = (
+				D057A7A11C45E92C0041AAD7 /* NSString+VSExtendedString.h */,
+				D057A7A21C45E92C0041AAD7 /* NSString+VSExtendedString.m */,
+			);
+			name = VSExtended;
+			sourceTree = "<group>";
+		};
+		D057A7A51C45E9BA0041AAD7 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				D057A7B41C45FE110041AAD7 /* Common */,
+				D057A7AD1C45F0810041AAD7 /* VSDataModel */,
+				D057A7A61C45EA100041AAD7 /* VSViewControllers */,
+				D057A79B1C45E07D0041AAD7 /* VSMainTableViewController.h */,
+				D057A79C1C45E07D0041AAD7 /* VSMainTableViewController.m */,
+				D057A78D1C45DEF00041AAD7 /* Main.storyboard */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		D057A7A61C45EA100041AAD7 /* VSViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D057A7B11C45F1950041AAD7 /* VSBlockViewController.h */,
+				D057A7B21C45F1950041AAD7 /* VSBlockViewController.m */,
+				D057A7C71C474D310041AAD7 /* VSARCBlockViewController.h */,
+				D057A7C81C474D310041AAD7 /* VSARCBlockViewController.m */,
+				D009A59E1C476C8200A79678 /* VSMRCBlockViewController.h */,
+				D009A59F1C476C8200A79678 /* VSMRCBlockViewController.m */,
+				D009A5A11C4787E400A79678 /* VSBlockAndDelegateViewController.h */,
+				D009A5A21C4787E400A79678 /* VSBlockAndDelegateViewController.m */,
+				D009A5A41C47892D00A79678 /* VSSecondViewController.h */,
+				D009A5A51C47892D00A79678 /* VSSecondViewController.m */,
+			);
+			name = VSViewControllers;
+			sourceTree = "<group>";
+		};
+		D057A7AD1C45F0810041AAD7 /* VSDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				D057A7AE1C45F0B50041AAD7 /* VSTestBlockModel.h */,
+				D057A7AF1C45F0B50041AAD7 /* VSTestBlockModel.m */,
+			);
+			name = VSDataModel;
+			sourceTree = "<group>";
+		};
+		D057A7B41C45FE110041AAD7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D057A7B51C45FE290041AAD7 /* Common.h */,
+				D057A7B61C45FE290041AAD7 /* Common.m */,
+			);
+			name = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +229,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D057A78C1C45DEF00041AAD7 /* ViewController.m in Sources */,
+				D057A7A31C45E92C0041AAD7 /* NSString+VSExtendedString.m in Sources */,
+				D009A5A01C476C8200A79678 /* VSMRCBlockViewController.m in Sources */,
+				D057A7B01C45F0B50041AAD7 /* VSTestBlockModel.m in Sources */,
+				D009A5A61C47892D00A79678 /* VSSecondViewController.m in Sources */,
+				D057A79D1C45E07D0041AAD7 /* VSMainTableViewController.m in Sources */,
+				D057A7B31C45F1950041AAD7 /* VSBlockViewController.m in Sources */,
+				D057A7B71C45FE290041AAD7 /* Common.m in Sources */,
+				D057A7C91C474D310041AAD7 /* VSARCBlockViewController.m in Sources */,
+				D009A5A31C4787E400A79678 /* VSBlockAndDelegateViewController.m in Sources */,
 				D057A7891C45DEF00041AAD7 /* AppDelegate.m in Sources */,
 				D057A7861C45DEF00041AAD7 /* main.m in Sources */,
 			);
@@ -298,6 +386,7 @@
 				D057A79A1C45DEF00041AAD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

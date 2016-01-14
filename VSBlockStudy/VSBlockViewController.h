@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  VSBlockViewController.h
 //  VSBlockStudy
 //
 //  Created by cooperLink on 16/1/13.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface VSBlockViewController : UIViewController
 
 @end
-
