@@ -21,6 +21,14 @@
 		D057A7B31C45F1950041AAD7 /* VSBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D057A7B21C45F1950041AAD7 /* VSBlockViewController.m */; };
 		D057A7B71C45FE290041AAD7 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = D057A7B61C45FE290041AAD7 /* Common.m */; };
 		D057A7C91C474D310041AAD7 /* VSARCBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D057A7C81C474D310041AAD7 /* VSARCBlockViewController.m */; };
+		D0DEFF591C5A1D9D00A9959C /* block.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0DEFF4F1C5A1D9D00A9959C /* block.cpp */; };
+		D0DEFF5A1C5A1D9D00A9959C /* block.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DEFF501C5A1D9D00A9959C /* block.m */; };
+		D0DEFF5B1C5A1D9D00A9959C /* blockVar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0DEFF521C5A1D9D00A9959C /* blockVar.cpp */; };
+		D0DEFF5C1C5A1D9D00A9959C /* blockVar.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DEFF531C5A1D9D00A9959C /* blockVar.m */; };
+		D0DEFF5D1C5A1D9D00A9959C /* blockCaptureVar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0DEFF551C5A1D9D00A9959C /* blockCaptureVar.cpp */; };
+		D0DEFF5E1C5A1D9D00A9959C /* blockCaptureVar.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DEFF561C5A1D9D00A9959C /* blockCaptureVar.m */; };
+		D0DEFF5F1C5A1D9D00A9959C /* blockCaptureVar__block.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0DEFF571C5A1D9D00A9959C /* blockCaptureVar__block.cpp */; };
+		D0DEFF601C5A1D9D00A9959C /* blockCaptureVar__weak.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0DEFF581C5A1D9D00A9959C /* blockCaptureVar__weak.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +58,14 @@
 		D057A7B61C45FE290041AAD7 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
 		D057A7C71C474D310041AAD7 /* VSARCBlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSARCBlockViewController.h; sourceTree = "<group>"; };
 		D057A7C81C474D310041AAD7 /* VSARCBlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSARCBlockViewController.m; sourceTree = "<group>"; };
+		D0DEFF4F1C5A1D9D00A9959C /* block.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = block.cpp; sourceTree = "<group>"; };
+		D0DEFF501C5A1D9D00A9959C /* block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = block.m; sourceTree = "<group>"; };
+		D0DEFF521C5A1D9D00A9959C /* blockVar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = blockVar.cpp; sourceTree = "<group>"; };
+		D0DEFF531C5A1D9D00A9959C /* blockVar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = blockVar.m; sourceTree = "<group>"; };
+		D0DEFF551C5A1D9D00A9959C /* blockCaptureVar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = blockCaptureVar.cpp; sourceTree = "<group>"; };
+		D0DEFF561C5A1D9D00A9959C /* blockCaptureVar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = blockCaptureVar.m; sourceTree = "<group>"; };
+		D0DEFF571C5A1D9D00A9959C /* blockCaptureVar__block.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = blockCaptureVar__block.cpp; sourceTree = "<group>"; };
+		D0DEFF581C5A1D9D00A9959C /* blockCaptureVar__weak.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = blockCaptureVar__weak.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +98,7 @@
 		D057A7831C45DEEF0041AAD7 /* VSBlockStudy */ = {
 			isa = PBXGroup;
 			children = (
+				D0DEFF4D1C5A1D9D00A9959C /* VSBlockC++ */,
 				D057A7A51C45E9BA0041AAD7 /* main */,
 				D057A7A41C45E9A00041AAD7 /* VSExtended */,
 				D057A7841C45DEEF0041AAD7 /* Supporting Files */,
@@ -159,6 +176,45 @@
 			name = Common;
 			sourceTree = "<group>";
 		};
+		D0DEFF4D1C5A1D9D00A9959C /* VSBlockC++ */ = {
+			isa = PBXGroup;
+			children = (
+				D0DEFF4E1C5A1D9D00A9959C /* block_0 */,
+				D0DEFF511C5A1D9D00A9959C /* block_1 */,
+				D0DEFF541C5A1D9D00A9959C /* block_2 */,
+			);
+			path = "VSBlockC++";
+			sourceTree = "<group>";
+		};
+		D0DEFF4E1C5A1D9D00A9959C /* block_0 */ = {
+			isa = PBXGroup;
+			children = (
+				D0DEFF4F1C5A1D9D00A9959C /* block.cpp */,
+				D0DEFF501C5A1D9D00A9959C /* block.m */,
+			);
+			path = block_0;
+			sourceTree = "<group>";
+		};
+		D0DEFF511C5A1D9D00A9959C /* block_1 */ = {
+			isa = PBXGroup;
+			children = (
+				D0DEFF521C5A1D9D00A9959C /* blockVar.cpp */,
+				D0DEFF531C5A1D9D00A9959C /* blockVar.m */,
+			);
+			path = block_1;
+			sourceTree = "<group>";
+		};
+		D0DEFF541C5A1D9D00A9959C /* block_2 */ = {
+			isa = PBXGroup;
+			children = (
+				D0DEFF551C5A1D9D00A9959C /* blockCaptureVar.cpp */,
+				D0DEFF561C5A1D9D00A9959C /* blockCaptureVar.m */,
+				D0DEFF571C5A1D9D00A9959C /* blockCaptureVar__block.cpp */,
+				D0DEFF581C5A1D9D00A9959C /* blockCaptureVar__weak.cpp */,
+			);
+			path = block_2;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -231,15 +287,23 @@
 			files = (
 				D057A7A31C45E92C0041AAD7 /* NSString+VSExtendedString.m in Sources */,
 				D009A5A01C476C8200A79678 /* VSMRCBlockViewController.m in Sources */,
+				D0DEFF5A1C5A1D9D00A9959C /* block.m in Sources */,
 				D057A7B01C45F0B50041AAD7 /* VSTestBlockModel.m in Sources */,
+				D0DEFF5C1C5A1D9D00A9959C /* blockVar.m in Sources */,
 				D009A5A61C47892D00A79678 /* VSSecondViewController.m in Sources */,
 				D057A79D1C45E07D0041AAD7 /* VSMainTableViewController.m in Sources */,
+				D0DEFF591C5A1D9D00A9959C /* block.cpp in Sources */,
 				D057A7B31C45F1950041AAD7 /* VSBlockViewController.m in Sources */,
+				D0DEFF5E1C5A1D9D00A9959C /* blockCaptureVar.m in Sources */,
+				D0DEFF5F1C5A1D9D00A9959C /* blockCaptureVar__block.cpp in Sources */,
 				D057A7B71C45FE290041AAD7 /* Common.m in Sources */,
 				D057A7C91C474D310041AAD7 /* VSARCBlockViewController.m in Sources */,
 				D009A5A31C4787E400A79678 /* VSBlockAndDelegateViewController.m in Sources */,
+				D0DEFF601C5A1D9D00A9959C /* blockCaptureVar__weak.cpp in Sources */,
+				D0DEFF5D1C5A1D9D00A9959C /* blockCaptureVar.cpp in Sources */,
 				D057A7891C45DEF00041AAD7 /* AppDelegate.m in Sources */,
 				D057A7861C45DEF00041AAD7 /* main.m in Sources */,
+				D0DEFF5B1C5A1D9D00A9959C /* blockVar.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

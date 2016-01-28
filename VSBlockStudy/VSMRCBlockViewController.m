@@ -220,7 +220,7 @@ static VSTestBlockModel *staticVar = nil;
     // 在MRC下，5, 6, 7 block在捕获成员变量时，不会copy变量，而是直接读取其内存内容
     
     // 在MRC下， 17 ，18 在block被copy到堆上时，捕获外部变量,
-    // 若tmbThree是__block变量,则17 输出 tm = motify three,18不会输出,内存无法释放
+    // 若tmbThree是__block变量,则17 输出 tm = motify three,18不会输出,内存无法释放(修改前的three不会被释放)
     
     
 
@@ -370,20 +370,32 @@ static VSTestBlockModel *staticVar = nil;
     NSLog(@"block2 = %@",[self getVoidBlockVoidReferenceVar]); // ......4
     VoidBlockVoid block3 = [self getVoidBlockVoidReferenceVar];
     NSLog(@"block3 = %@",block3); // ...................................5
-    block3(); // .......................................................6
+    // block3(); // .......................................................6 会crash
 
     
     VSTestBlockModel *tbm = [self creatTestBlockModelWith:@"Function parameter"];
     NSLog(@"block4 = %@",[self getVoidBlockVoidWith:tbm]); // ..........7
     VoidBlockVoid block5 = [self getVoidBlockVoidWith:tbm];
     NSLog(@"block5 = %@",block5); // ...................................8
-    block5(); // .......................................................9
+    // block5(); // .......................................................9 会crash
     
+    /*
+     调用 6 & 9　会crash，MRC下block作为返回值，在栈中的必须被copy，否则返回block的方法结束后block会被释放掉
+     */
+    
+    /*
+     block0 = <__NSGlobalBlock__: 0x109389470>
+     block1 = <__NSGlobalBlock__: 0x109389470>
+     This is a block as return value
+     block2 = (null)
+     block3 = (null)
+     block4 = (null)
+     block5 = (null)
+     */
     
     // 在MRC下 log
     /*
-    
-     不能直接返回 栈内的block，因栈内的block 出了次函数后被释放
+     不能直接返回 栈内的block，因栈内的block 出了此函数后被释放
      */
     
     // 1, 2

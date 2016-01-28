@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F8FD84EB-86D5-45E0-B6B1-2FA9E1B57E9B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>VSBlockStudy</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D6B88978A8D0F0D912AA2F07F3A03133F85D105F</key>
+		<string>https://github.com/weishiyue/VSBlockStudy.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>VSBlockStudy.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D6B88978A8D0F0D912AA2F07F3A03133F85D105F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/weishiyue/VSBlockStudy.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D6B88978A8D0F0D912AA2F07F3A03133F85D105F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D6B88978A8D0F0D912AA2F07F3A03133F85D105F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>VSBlockStudy</string>
+		</dict>
+	</array>
+</dict>
+</plist>

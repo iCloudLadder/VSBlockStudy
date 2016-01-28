@@ -28,7 +28,7 @@ static VSTestBlockModel *staticVar = nil;
 
 
 
-@property (nonatomic, copy) VoidBlockVoid blockProperty; // copy ,block 不是对象二十代码块地址
+@property (nonatomic, copy) VoidBlockVoid blockProperty; // copy 
 
 @end
 
@@ -299,7 +299,7 @@ static VSTestBlockModel *staticVar = nil;
      staticVar = modify Property var -----------------12
      */
     
-    // 在ARC下，成员变量可以被修改，也是引用的地址内容（会不会怎加变量的引用计数？应该不会，待验证）
+    // 在ARC下，成员变量可以被修改，也是引用的地址内容（会不会怎加变量的引用计数？应该不会，增加计数的是实例self，待验证）
     
     // 全局变量或静态变量在内存中的地址是固定的，Block在读取该变量值的时候是直接从其所在内存读出，获取到的是最新值，而不是在定义时copy的常量
 }
@@ -331,18 +331,19 @@ static VSTestBlockModel *staticVar = nil;
      block1 = <__NSGlobalBlock__: 0x103e40370> ------2
      This is a block as return value-----------------3
      block2 = <__NSMallocBlock__: 0x7f9f03c2ffa0> ---4
-     Function var delloc -----------------------------------
+     Function var delloc -----------------------------------使用结束后被释放
      block3 = <__NSMallocBlock__: 0x7f9f03f34c30> ---5
      tbm = Function var -----------------------------6
      block4 = <__NSMallocBlock__: 0x7f9f03f4b420> ---7
      block5 = <__NSMallocBlock__: 0x7f9f03e23b30> ---8
      tbm = Function parameter -----------------------9
-     Function parameter delloc -----------------------------
-     Function var delloc -----------------------------------
+     Function parameter delloc ----------------------------- ..7使用结束后被释放, 放法结束后，block5被释放
+     Function var delloc -----------------------------------放法结束后，block3被释放
      */
     
-    // 1, 2
-    
+    // ARC 
+    // 1, 2 不引用外部变量，已经在Global 数据段，作为返回值不会再被copy
+    // 4, 5 ,7, 8作为返回值 被自动copy到堆
     
 }
 
