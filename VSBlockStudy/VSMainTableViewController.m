@@ -10,6 +10,19 @@
 #import "NSString+VSExtendedString.h"
 #import <objc/runtime.h>
 
+
+/* 
+ 官方文档
+ https://developer.apple.com/library/prerelease/ios/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/WorkingwithBlocks/WorkingwithBlocks.html#//apple_ref/doc/uid/TP40011210-CH8
+ */
+
+/*
+ runtion openSource
+ http://opensource.apple.com/source/objc4/objc4-680/runtime/
+ */
+
+
+
 /*
  1. NSStackBlock：位于栈内存，函数返回后Block将无效
     在超出 NSStackBlock 的使用周期外使用，*必须copy*， retain和release无效
