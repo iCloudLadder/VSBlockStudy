@@ -1,5 +1,10 @@
 # VSBlockStudy
-block Study
+
+ 官方文档
+ https://developer.apple.com/library/prerelease/ios/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/WorkingwithBlocks/WorkingwithBlocks.html#//apple_ref/doc/uid/TP40011210-CH8
+ 
+ runtime openSource
+ http://opensource.apple.com/source/objc4/objc4-680/runtime/
 
 # block 的存储
  1. NSStackBlock：位于栈内存，函数返回后Block将无效
