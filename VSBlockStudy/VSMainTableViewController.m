@@ -17,7 +17,7 @@
  */
 
 /*
- runtion openSource
+ runtime openSource
  http://opensource.apple.com/source/objc4/objc4-680/runtime/
  */
 
