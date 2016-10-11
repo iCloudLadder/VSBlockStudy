@@ -12,7 +12,7 @@
 
 -(BOOL)isNotEmpty
 {
-    if (self && [self length]) {
+    if (self && [self isKindOfClass:[NSString class]] && [self length]) {
         return YES;
     }
     return NO;

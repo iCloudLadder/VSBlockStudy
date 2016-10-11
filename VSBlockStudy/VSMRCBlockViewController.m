@@ -28,7 +28,7 @@ static VSTestBlockModel *staticVar = nil;
 
 
 
-@property (nonatomic, copy) VoidBlockVoid blockProperty; // copy ,block 不是对象二十代码块地址
+@property (nonatomic, copy) VoidBlockVoid blockProperty; // copy, Block 是一个C语言级别的，且具有runtime特性的对象
 
 @end
 
